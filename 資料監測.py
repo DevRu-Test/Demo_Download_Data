@@ -94,7 +94,7 @@ if on:
             input_b2.plotly_chart(fig, theme="streamlit", use_container_width=True)
             input_b3.dataframe(stats_df)
 
-        if i_col == 0:
+        if i_col == 2:
             input_c2.plotly_chart(fig, theme="streamlit", use_container_width=True)
             input_c3.dataframe(stats_df)
 

@@ -71,7 +71,7 @@ if on:
 
 
     # Data
-    path = "../Data/FinalData/FinalData.csv"
+    path = "../Data/FinalData.csv"
     df = get_data(path)
     df["DATETIME"] = pd.to_datetime(df["DATETIME"])
     df["DATESTR"] = pd.to_datetime(df["DATETIME"]).dt.strftime("%Y-%m-%d")

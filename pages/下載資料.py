@@ -25,7 +25,7 @@ input_a1, input_a2 = container1.columns((1, 1))
 
 
 # Data
-path = "../Data/FinalData/FinalData.csv"
+path = "./Data/FinalData.csv"
 df = get_data(path)
 df["DATETIME"] = pd.to_datetime(df["DATETIME"])
 df["DATESTR"] = pd.to_datetime(df["DATETIME"]).dt.strftime("%Y-%m-%d")
